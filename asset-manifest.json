@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio-WEBSITE/static/css/main.6c2fdab4.css",
+    "main.js": "/portfolio-WEBSITE/static/js/main.2713acfe.js",
+    "static/media/frontend.jpg": "/portfolio-WEBSITE/static/media/frontend.e1f2480c3b3dfffbfa19.jpg",
+    "static/media/andro.jpg": "/portfolio-WEBSITE/static/media/andro.bddb750f3959db98d0ff.jpg",
+    "static/media/Movie.PNG": "/portfolio-WEBSITE/static/media/Movie.560f0cd146add4190744.PNG",
+    "static/media/backend.jpg": "/portfolio-WEBSITE/static/media/backend.185e9c2c00075ebb6832.jpg",
+    "static/media/HomeScreen.gif": "/portfolio-WEBSITE/static/media/HomeScreen.4028d7bfe3422b04525e.gif",
+    "static/media/rps.PNG": "/portfolio-WEBSITE/static/media/rps.b92d145ccba7c43baad3.PNG",
+    "static/media/botlive.PNG": "/portfolio-WEBSITE/static/media/botlive.61c8bccf142fcfcb95fa.PNG",
+    "static/media/github.png": "/portfolio-WEBSITE/static/media/github.b59201ef2ff446316717.png",
+    "static/media/Roomdb.jpg": "/portfolio-WEBSITE/static/media/Roomdb.385346279e3046ebd74a.jpg",
+    "static/media/DiceApp.jpg": "/portfolio-WEBSITE/static/media/DiceApp.970121a3e7f0de86dbf1.jpg",
+    "static/media/besant.jpeg": "/portfolio-WEBSITE/static/media/besant.5f922af7f389d633e01c.jpeg",
+    "static/media/to-do.PNG": "/portfolio-WEBSITE/static/media/to-do.ee830160bb09b01bbdcc.PNG",
+    "static/media/Contact.jpg": "/portfolio-WEBSITE/static/media/Contact.34b04c84132666036ee4.jpg",
+    "static/media/About.jpg": "/portfolio-WEBSITE/static/media/About.1a669305a8743a9f2fbc.jpg",
+    "static/media/slick.svg": "/portfolio-WEBSITE/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/portfolio-WEBSITE/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/portfolio-WEBSITE/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/portfolio-WEBSITE/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/portfolio-WEBSITE/index.html",
+    "main.6c2fdab4.css.map": "/portfolio-WEBSITE/static/css/main.6c2fdab4.css.map",
+    "main.2713acfe.js.map": "/portfolio-WEBSITE/static/js/main.2713acfe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c2fdab4.css",
+    "static/js/main.2713acfe.js"
+  ]
+}
