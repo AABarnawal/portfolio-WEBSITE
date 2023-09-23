@@ -76,7 +76,7 @@ const Projects = () => {
   const [state, setState] = useState(3)
   useEffect(()=>{
     const width = window.innerWidth;
-    if( width <= 420){
+    if( width <= 480){
       setState(1)
     }else{
       setState(3)
