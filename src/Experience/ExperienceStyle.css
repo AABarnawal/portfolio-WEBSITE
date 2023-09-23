@@ -1,0 +1,121 @@
+/* Card.css */
+.ExpHeading{
+  margin-top: 20px;
+    margin-bottom: 16px;
+    font-family: Inter, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 115%;
+}
+.ExpTitle{
+  color: #474747;
+  font-size: 1.125rem;
+  line-height: 150%;
+}
+.Expcard {
+  display: flex;
+  width: 80%;
+  background-color: white;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  justify-content: space-around;
+  min-height: 20vh;
+  padding: 2px;
+}
+
+.card-reverse {
+  flex-direction: row-reverse;
+  width: 80%;
+  background-color: white;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 2px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  min-height: 20vh;
+}
+
+.card-image {  
+  padding: 20px;
+  width: 20%;
+  height: 20%;
+}
+
+
+
+.card-content {
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.card-buttons a button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .Expcard {
+    display: contents;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    justify-content: space-around;
+    min-height: 20vh;
+  }
+  
+  .card-reverse {
+    display: contents;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    min-height: 20vh;
+  }
+  .card-image {  
+    padding: 20px;
+    width: 40%;
+    height: 40%;
+    justify-content: center;
+  }
+  
+  
+}
+/* Styling for alternating card colors */
+/* .card:nth-child(even) {
+  background-color: #3483DE;
+  color: white;
+}
+
+.card:nth-child(even) .card-buttons button {
+  background-color: white;
+  color: #3483DE;
+} */

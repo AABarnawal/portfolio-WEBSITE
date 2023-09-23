@@ -1,0 +1,38 @@
+.HomeContainer{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.headtext{
+    color:#3483DE,
+}
+.HCtext{
+    width: 30%;
+    margin: auto;
+}
+.HCtext h1{
+    font-weight: Bold;
+    font-size: 40px;
+    color:white;
+}
+.HCtext p{
+    text-align: end;
+    font-size: 20px;
+}
+.HomeText{
+    text-align: end;
+    font-weight: Bold;
+    font-size: 30px;
+    vertical-align: middle;
+    
+}
+
+@media (max-width: 768px) {
+    .HCtext{
+        width: 80%;
+        margin: auto;
+    }
+}

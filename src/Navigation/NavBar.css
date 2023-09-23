@@ -1,0 +1,5 @@
+.nav-item:hover{
+    color:white;
+    font-weight: bolder;
+    transition: .5s;
+}
