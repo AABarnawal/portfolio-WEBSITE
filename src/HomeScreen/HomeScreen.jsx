@@ -36,7 +36,7 @@ function HomeScreen() {
           <h1>
             Ankit Kumar
           </h1>
-          <p>FullStack Developer</p>
+          <p>Fullstack Developer</p>
         </div>
         <div className='row m-0'>
             {/* img  */}
