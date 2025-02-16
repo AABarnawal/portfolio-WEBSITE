@@ -165,7 +165,7 @@ const Hero = () => {
             Get in Touch
           </a>
           <a
-            href="/resume.pdf"
+            href="https://drive.google.com/file/d/11WqW2HhOlIs4Q2rUim5Mrx0f2uAqG7A4/view"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-transparent border-2 border-blue-600 hover:bg-blue-600 text-blue-600 hover:text-white font-bold py-3 px-8 rounded-full transition-colors duration-300"
