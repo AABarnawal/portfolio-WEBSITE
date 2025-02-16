@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa"
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa"
 
 const Footer = () => {
   return (
@@ -9,14 +9,14 @@ const Footer = () => {
             <p className="text-gray-400">&copy; 2025 Your Name. All rights reserved to Ankit Kumar.</p>
           </div>
           <div className="flex space-x-6">
-            <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
+            <a href="https://github.com/AABarnawal" className="text-gray-400 hover:text-blue-400 transition-colors">
               <FaGithub className="text-2xl" />
             </a>
-            <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
+            <a href="https://www.linkedin.com/in/ankit-kumar-5a56071a7/" className="text-gray-400 hover:text-blue-400 transition-colors">
               <FaLinkedin className="text-2xl" />
             </a>
-            <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
-              <FaTwitter className="text-2xl" />
+            <a href="https://www.instagram.com/ankitbarnawal_/#" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <FaInstagram className="text-2xl" />
             </a>
           </div>
         </div>
