@@ -31,14 +31,30 @@ const About = () => {
                 className="object-cover object-center w-full h-full"
                 priority
               />
-{/*               <Image
-                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/final.jpg`}
+              <Image
+                src={`/final.jpg`}
                 alt="Ankit Kumar"
                 width={384}
                 height={500}
                 className="object-cover object-center w-full h-full"
                 priority
-              /> */}
+              />
+               <Image
+                src={`./final.jpg`}
+                alt="Ankit Kumar"
+                width={384}
+                height={500}
+                className="object-cover object-center w-full h-full"
+                priority
+              />
+               <Image
+                src="./final.jpg"
+                alt="Ankit Kumar"
+                width={384}
+                height={500}
+                className="object-cover object-center w-full h-full"
+                priority
+              />
             </div>
           </motion.div>
 
