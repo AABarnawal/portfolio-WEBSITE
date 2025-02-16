@@ -5,7 +5,7 @@ try {
   // ignore error
 }
 
-const repoName = "portfolio-WEBSITE"; // 🔹 Replace with your actual GitHub repo name
+const repoName = "your-repo-name"; // Replace with your actual GitHub repo name
 const isProd = process.env.NODE_ENV === "production";
 
 /** @type {import('next').NextConfig} */
@@ -17,10 +17,11 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    unoptimized: true, // Necessary for GitHub Pages
+    unoptimized: true, // Ensure images work on GitHub Pages
   },
   basePath: isProd ? `/${repoName}` : "",
   assetPrefix: isProd ? `/${repoName}/` : "",
+  trailingSlash: true, // Ensures correct paths for CSS and JS
   experimental: {
     webpackBuildWorker: true,
     parallelServerBuildTraces: true,
@@ -60,6 +61,9 @@ export default nextConfig
 //   // ignore error
 // }
 
+// const repoName = "portfolio-WEBSITE"; // 🔹 Replace with your actual GitHub repo name
+// const isProd = process.env.NODE_ENV === "production";
+
 // /** @type {import('next').NextConfig} */
 // const nextConfig = {
 //   eslint: {
@@ -69,8 +73,10 @@ export default nextConfig
 //     ignoreBuildErrors: true,
 //   },
 //   images: {
-//     unoptimized: true,
+//     unoptimized: true, // Necessary for GitHub Pages
 //   },
+//   basePath: isProd ? `/${repoName}` : "",
+//   assetPrefix: isProd ? `/${repoName}/` : "",
 //   experimental: {
 //     webpackBuildWorker: true,
 //     parallelServerBuildTraces: true,
@@ -101,3 +107,4 @@ export default nextConfig
 // }
 
 // export default nextConfig
+
