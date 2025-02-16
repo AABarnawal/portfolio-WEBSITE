@@ -5,7 +5,7 @@ try {
   // ignore error
 }
 
-const repoName = "your-repo-name"; // 🔹 Replace with your actual GitHub repo name
+const repoName = "portfolio-WEBSITE"; // 🔹 Replace with your actual GitHub repo name
 const isProd = process.env.NODE_ENV === "production";
 
 /** @type {import('next').NextConfig} */
