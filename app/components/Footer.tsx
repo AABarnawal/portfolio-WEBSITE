@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="text-center md:text-left mb-4 md:mb-0">
-            <p className="text-gray-400">&copy; 2025 Your Name. All rights reserved to Ankit Kumar.</p>
+            <p className="text-gray-400">&copy; 2025 Ankit Kumar. All rights reserved.</p>
           </div>
           <div className="flex space-x-6">
             <a href="https://github.com/AABarnawal" className="text-gray-400 hover:text-blue-400 transition-colors">
