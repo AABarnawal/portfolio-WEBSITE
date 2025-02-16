@@ -1,0 +1,29 @@
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa"
+
+const Footer = () => {
+  return (
+    <footer className="bg-gray-900 py-8">
+      <div className="container mx-auto px-6">
+        <div className="flex flex-col md:flex-row justify-between items-center">
+          <div className="text-center md:text-left mb-4 md:mb-0">
+            <p className="text-gray-400">&copy; 2025 Your Name. All rights reserved to Ankit Kumar.</p>
+          </div>
+          <div className="flex space-x-6">
+            <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <FaGithub className="text-2xl" />
+            </a>
+            <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <FaLinkedin className="text-2xl" />
+            </a>
+            <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <FaTwitter className="text-2xl" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  )
+}
+
+export default Footer
+
