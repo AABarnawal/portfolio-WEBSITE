@@ -23,30 +23,6 @@ const About = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <div className="w-full h-[400px] lg:w-96 lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
-              <Image
-                src="/final.jpg"
-                alt="Ankit Kumar"
-                width={384}
-                height={500}
-                className="object-cover object-center w-full h-full"
-                priority
-              />
-              <Image
-                src={`/final.jpg`}
-                alt="Ankit Kumar"
-                width={384}
-                height={500}
-                className="object-cover object-center w-full h-full"
-                priority
-              />
-               <Image
-                src={`./final.jpg`}
-                alt="Ankit Kumar"
-                width={384}
-                height={500}
-                className="object-cover object-center w-full h-full"
-                priority
-              />
                <Image
                 src="./final.jpg"
                 alt="Ankit Kumar"
